@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Logo -->
+    <link rel="icon" type="icon" href="img/DRM FINAL LOGO 4.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font-Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+
+    <!-- CSS  -->
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/common.css">
+
+    <!-- JS  -->
+    <link rel="stylesheet" href="script.js">
+
+    <!-- Title  -->
+    <title>Painter Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg px-0 px-sm-5">
+        <div class="container-fluid">
+            <a class="navbar-brand logo-img" href="/index.html">
+                <!-- <img src="/img/logo.png" alt=""> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-2 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/artwork.html">Artworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Banner Section  -->
+    <section class="about-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-banner-left">
+                        <h1 class="painter-text">Contact</h1>
+                        <div class="red-line"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-banner-right">
+                        <img src="/img/contact-banner-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-left ms-sm-5 ms-0">
+                        <div>
+                            <p class="contact-title">Phone</p>
+                            <h1 class="contact-heading">9328207190</h1>
+                        </div>
+                        <div>
+                            <p class="contact-title">Email</p>
+                            <h1 class="contact-heading">prince@gmail.com</h1>
+                        </div>
+                        <div>
+                            <p class="contact-title">Address</p>
+                            <h1 class="contact-heading">Surat, Gujrat</h1>
+                        </div>
+
+                        <div class="form-icon">
+                            <p class="contact-title">Follow Me</p>
+                            <button> <a class="whatsapp" href="https://wa.me/9193207190?text=Hello!" target="_blank"
+                                    rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></button>
+                            <button><a href="https://instagram.com/prince_bhesaniya_01"><i
+                                        class="fa-brands fa-instagram"></i></a></button>
+                            <button><a href="https://facebook.com/Prince Bhesaniya"><i
+                                        class="fa-brands fa-facebook-f"></i></a></button>
+                            <button><a href=""><i class="fa-brands fa-x-twitter"></i></i></a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-container">
+                        <form id="contactForm">
+                            <h2 class="message-text">Send Me a Message</h2>
+
+                            <div class="row g-3 mb-3">
+                                <div class="col-sm-6 d-flex flex-column">
+                                    <label for="firstName">Name <span class="text-danger">*</span></label>
+                                    <input type="text" id="firstName" class="form-control" required />
+                                    <small class="form-text">First</small>
+                                </div>
+                                <div class="col-sm-6 d-flex flex-column">
+                                    <label for="lastName" class="invisible">Last Name</label>
+                                    <input type="text" id="lastName" class="form-control" />
+                                    <small class="form-text">Last</small>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 d-flex flex-column">
+                                <label for="email">Email <span class="text-danger">*</span></label>
+                                <input type="email" id="email" class="form-control" required />
+                            </div>
+
+                            <div class="mb-3 d-flex flex-column">
+                                <label for="message">Message <span class="text-danger">*</span></label>
+                                <textarea id="message" rows="4" class="form-control" required></textarea>
+                            </div>
+
+                            <button type="submit" class="send-btn">SEND</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="find-us-map mt-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609884594!2d72.7410975852474!3d19.082197839307436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff24b7e525f%3A0x37794777b3890b0c!2sIndia!5e0!3m2!1sen!2sin!4v1716452139512!5m2!1sen!2sin"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="home-bg-theam">
+        <!-- Footer  -->
+        <div class="footer-end">
+            <div class="container">
+                <div class="footer-text d-flex justify-content-center align-items-center">
+                    <div class="footer-logo">
+                        <!-- <img src="/img/logo.png" alt=""> -->
+                    </div>
+                    <p class="common-title text-center mb-0 position-absolute mt-5">Copyright © 2025 Painter | Powered
+                        by Painter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const firstName = document.getElementById("firstName").value.trim();
+        const lastName = document.getElementById("lastName").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        if (!firstName || !email || !message) {
+            alert("Please fill in required fields.");
+            return;
+        }
+
+        const fullName = lastName ? `${firstName} ${lastName}` : firstName;
+
+        const text = `*New Contact Form Submission*\n\n👤 *Name:* ${fullName}\n📧 *Email:* ${email}\n📝 *Message:* ${message}`;
+
+        const phoneNumber = "919328207190"; // Indian number (91 is country code)
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+        window.open(whatsappURL, "_blank");
+    });
+</script>

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color: #ffa700;
+    --white: #ffff;
+    --black: #000;
+    --red: #FF0000;
+    --about-red-color: #d92b17;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.common-heading {
+    color: var(--theme-color);
+    font-size: clamp(22px, 2vw, 28px);
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px;
+}
+
+.common-title {
+    color: var(--black);
+    font-size: clamp(14px, 1.2vw, 16px);
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 2px;
+}
+
+.common-btn {
+    color: var(--black);
+    font-size: clamp(14px, 1.2vw, 16px);
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    border: 2px solid var(--black);
+    padding: 10px 25px;
+    background-color: transparent;
+}
+
+.common-btn:hover {
+    background-color: var(--theme-color);
+    color: var(--white);
+}
+
+/* Navbar  */
+.logo-img {
+    width: 120px;
+}
+
+.navbar .nav-link {
+    color: var(--white);
+}
+
+.navbar .nav-link.active {
+    color: var(--theme-color);
+    text-decoration: underline;
+    text-decoration-color: var(--theme-color);
+}
+
+.navbar .navbar-toggler {
+    background-color: var(--theme-color);
+}
+
+
+
+
+
+
+/* Footer  */
+/* .footer-logo {
+  width: 200px;
+}
+
+footer a {
+  text-decoration: none;
+} */
+
+
+.footer-end {
+    background-image: url('/img/footer-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-end .footer-logo {
+    width: 100px;
+}
+
+
+/* arrow  */
+.pre-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 10px;
+    border: 0;
+    font-size: 20px;
+    background: var(--theme-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.next-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    right: 10px;
+    border: 0;
+    font-size: 20px;
+    background: var(--theme-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

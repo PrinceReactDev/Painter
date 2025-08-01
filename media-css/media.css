@@ -1,0 +1,153 @@
+@media (min-width: 320px) {
+
+
+    /* banner  */
+    .banner-rigth {
+        width: 210px;
+    }
+
+    .banner-rigth::before {
+        width: 180px;
+        height: 180px;
+    }
+
+    .banner-rigth::after {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Recent Artworks */
+    .artwork-section .artwork-left {
+        width: 250px;
+    }
+
+    .artwork-right .artwork-right-img {
+        width: 280px;
+    }
+
+    .story-section .person-img {
+        width: 100%;
+    }
+
+    .story-section {
+        padding-block: 30px;
+    }
+
+    .exhibitions-right .exhibitions-img {
+        width: 300px;
+    }
+
+    .exhibitions-section .exhibitions-slide-img {
+        width: 250px;
+    }
+}
+
+
+@media (min-width: 575px) {
+
+    /* banner  */
+    .banner-rigth {
+        width: 250px;
+    }
+
+    .banner-rigth::before {
+        width: 240px;
+        height: 240px;
+    }
+
+    .banner-rigth::after {
+        width: 240px;
+        height: 240px;
+    }
+
+
+    /* Recent Artworks */
+    .artwork-section .artwork-left {
+        width: 320px;
+    }
+
+    .artwork-right .artwork-right-img {
+        width: 350px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    /* banner  */
+    .banner-rigth {
+        width: 300px;
+    }
+
+    .banner-rigth::before {
+        width: 280px;
+        height: 280px;
+    }
+
+    .banner-rigth::after {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    /* Recent Artworks */
+    .artwork-section .artwork-left {
+        width: 320px;
+    }
+
+    .artwork-right .artwork-right-img {
+        width: 350px;
+    }
+
+    .story-section .person-img {
+        width: 230px;
+        height: 430px;
+    }
+
+    .story-section {
+        padding-block: 100px;
+    }
+
+    .exhibitions-right .exhibitions-img {
+        width: 400px;
+    }
+
+    .exhibitions-section .exhibitions-slide-img {
+        width: 300px;
+    }
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+    /* banner  */
+    .banner-rigth {
+        width: 400px;
+    }
+
+    .banner-rigth::before {
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner-rigth::after {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Recent Artworks */
+    .artwork-section .artwork-left {
+        width: 380px;
+    }
+
+    .artwork-right .artwork-right-img {
+        width: 400px;
+    }
+}
+
+
+
+@media (min-width: 1024px) {}

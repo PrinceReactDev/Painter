@@ -1,0 +1,142 @@
+.about-heading {
+    font-family: "Kristi", cursive;
+    font-size: clamp(6rem, 14vw, 12rem);
+    line-height: 12rem;
+    letter-spacing: -0.02em;
+    user-select: none;
+    pointer-events: none;
+    margin: 0;
+    color: var(--about-red-color);
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 100px;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+
+/* navbar  */
+.navbar {
+    background-image: url('/img/about-banner-bg-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+
+.about-banner {
+    background-image: url('/img/about-banner-bg-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.about-banner::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(2, 1, 1, 0.3);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.about-banner-left .painter-text {
+    font-family: "Kristi", cursive;
+    font-size: clamp(6rem, 14vw, 12rem);
+    line-height: 12rem;
+    letter-spacing: -0.02em;
+    user-select: none;
+    pointer-events: none;
+    margin: 0;
+    color: var(--white);
+}
+
+.about-banner-left {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.red-line {
+    border-top: 4px solid #d32f2f;
+    width: 6rem;
+    margin-top: -4rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-banner-right {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+.artwork-section {
+    position: relative;
+    width: 100%;
+    padding: 4rem 0;
+    background-image: url('/img/about-exhibitions-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+@media (max-width: 320px) {
+    .artwork-section {
+        background-attachment: scroll;
+    }
+}
+
+.work-img {
+    overflow: hidden;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.work-img img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform .4s ease;
+}
+
+.work-img:hover img {
+    transform: scale(1.05);
+}
+
+
+
+.home-bg-theam {
+    position: relative;
+    width: 100%;
+    background-image: url('/img/about-exhibitions-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 0;
+}
+
+
+
+
+@media (max-width: 320px) {
+    .home-bg-theam {
+        background-attachment: scroll;
+    }
+}
